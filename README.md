@@ -1,5 +1,10 @@
 automation-django-RestFramework-Template-Generator
 ==================================================
+#####Requirements
+
+Pip to be installed and added to environment variables 
+
+Python 2.7
 #####Steps to use
 1) If you don't have django and/or RestFramework  installed,  run setup.bat.
 

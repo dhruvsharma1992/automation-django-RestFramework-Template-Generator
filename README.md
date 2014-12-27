@@ -20,6 +20,15 @@ Python 2.7
 
 You  can use  port between 1000 to 56K.  Ideally  we  use  port 8000 or 8080 
 
+#####Features
+1) you can check the output using 
+```localhost:<port>\test``` which shows a sample get query which renders an index html page with a list and a dict rendered on the page. The code for the same can be found in views.py ( class test) and templates\index.html
+
+2) ```localhost:<port>\get?parameter=12345``` is an example of a get query with query parameters. The  api  returns an application/json with same data as passed in the 'parameter' argument.
+
+3) ```localhost:<port>\post``` is an  example of a Post request.  You  have  to  use either a rest console\postman\ any other extension to fire a  post request or you can use an ajax query from your  browser's console.  It  returns  the  data  passed as payload  as an  application/json.
+
+
 #####To contribute
 1) Fork the repo.
 

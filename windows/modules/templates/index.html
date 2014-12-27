@@ -1,0 +1,28 @@
+<!DOCTYPE>
+<html>
+<head><title>Sample Index.html</title></head>
+<body>
+<div>
+	<h2>   Index.HTML </h2>	
+	<div style="align:center">
+		<h2> List rendering</h2>
+		<ul>
+		{%for e in list %}
+			<li> {{e}} </li>
+		{%endfor%}
+		</ul>
+		<h2> Dictionary Rendering</h2>
+		<table border="0">
+		{%for key,value in dict.items  %}
+		<tr>
+			<td> {{key}}</td> <td>{{value}}</td>
+		
+		</tr>
+		{% endfor %}
+		</table>
+	</div>
+	
+</div>
+</body>
+
+</html>
